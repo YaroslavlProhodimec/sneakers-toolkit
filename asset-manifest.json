@@ -1,14 +1,12 @@
 {
   "files": {
     "main.css": "/sneakers-toolkit/static/css/main.d9c725ab.css",
-    "main.js": "/sneakers-toolkit/static/js/main.9e2d3a6f.js",
-    "Login.js": "/sneakers-toolkit/static/js/Login.8f2e2cf6.chunk.js",
+    "main.js": "/sneakers-toolkit/static/js/main.6e238d1e.js",
+    "Login.js": "/sneakers-toolkit/static/js/Login.82c3f80f.chunk.js",
     "Sneakers.css": "/sneakers-toolkit/static/css/Sneakers.dcc751c2.chunk.css",
-    "Sneakers.js": "/sneakers-toolkit/static/js/Sneakers.9952e438.chunk.js",
+    "Sneakers.js": "/sneakers-toolkit/static/js/Sneakers.c1734b36.chunk.js",
     "NotFound.css": "/sneakers-toolkit/static/css/NotFound.a38e8201.chunk.css",
     "NotFound.js": "/sneakers-toolkit/static/js/NotFound.05001f41.chunk.js",
-    "LogOut.css": "/sneakers-toolkit/static/css/LogOut.7d6df92b.chunk.css",
-    "LogOut.js": "/sneakers-toolkit/static/js/LogOut.77cb6aef.chunk.js",
     "static/js/787.f32d9650.chunk.js": "/sneakers-toolkit/static/js/787.f32d9650.chunk.js",
     "static/js/114.f19d4171.chunk.js": "/sneakers-toolkit/static/js/114.f19d4171.chunk.js",
     "static/media/adidasGold.png": "/sneakers-toolkit/static/media/adidasGold.2ac94ffc6a74ccc909c6.png",
@@ -24,19 +22,17 @@
     "index.html": "/sneakers-toolkit/index.html",
     "static/media/chevron-down.svg": "/sneakers-toolkit/static/media/chevron-down.31d6cfe0d16ae931b73c.svg",
     "main.d9c725ab.css.map": "/sneakers-toolkit/static/css/main.d9c725ab.css.map",
-    "main.9e2d3a6f.js.map": "/sneakers-toolkit/static/js/main.9e2d3a6f.js.map",
-    "Login.8f2e2cf6.chunk.js.map": "/sneakers-toolkit/static/js/Login.8f2e2cf6.chunk.js.map",
+    "main.6e238d1e.js.map": "/sneakers-toolkit/static/js/main.6e238d1e.js.map",
+    "Login.82c3f80f.chunk.js.map": "/sneakers-toolkit/static/js/Login.82c3f80f.chunk.js.map",
     "Sneakers.dcc751c2.chunk.css.map": "/sneakers-toolkit/static/css/Sneakers.dcc751c2.chunk.css.map",
-    "Sneakers.9952e438.chunk.js.map": "/sneakers-toolkit/static/js/Sneakers.9952e438.chunk.js.map",
+    "Sneakers.c1734b36.chunk.js.map": "/sneakers-toolkit/static/js/Sneakers.c1734b36.chunk.js.map",
     "NotFound.a38e8201.chunk.css.map": "/sneakers-toolkit/static/css/NotFound.a38e8201.chunk.css.map",
     "NotFound.05001f41.chunk.js.map": "/sneakers-toolkit/static/js/NotFound.05001f41.chunk.js.map",
-    "LogOut.7d6df92b.chunk.css.map": "/sneakers-toolkit/static/css/LogOut.7d6df92b.chunk.css.map",
-    "LogOut.77cb6aef.chunk.js.map": "/sneakers-toolkit/static/js/LogOut.77cb6aef.chunk.js.map",
     "787.f32d9650.chunk.js.map": "/sneakers-toolkit/static/js/787.f32d9650.chunk.js.map",
     "114.f19d4171.chunk.js.map": "/sneakers-toolkit/static/js/114.f19d4171.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9c725ab.css",
-    "static/js/main.9e2d3a6f.js"
+    "static/js/main.6e238d1e.js"
   ]
 }
