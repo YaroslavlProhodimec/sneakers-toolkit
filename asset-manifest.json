@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sneakers-toolkit/static/css/main.d9c725ab.css",
-    "main.js": "/sneakers-toolkit/static/js/main.c47144e4.js",
+    "main.js": "/sneakers-toolkit/static/js/main.c3541e48.js",
     "Login.js": "/sneakers-toolkit/static/js/Login.82c3f80f.chunk.js",
     "Sneakers.css": "/sneakers-toolkit/static/css/Sneakers.dcc751c2.chunk.css",
     "Sneakers.js": "/sneakers-toolkit/static/js/Sneakers.9952e438.chunk.js",
@@ -22,7 +22,7 @@
     "index.html": "/sneakers-toolkit/index.html",
     "static/media/chevron-down.svg": "/sneakers-toolkit/static/media/chevron-down.31d6cfe0d16ae931b73c.svg",
     "main.d9c725ab.css.map": "/sneakers-toolkit/static/css/main.d9c725ab.css.map",
-    "main.c47144e4.js.map": "/sneakers-toolkit/static/js/main.c47144e4.js.map",
+    "main.c3541e48.js.map": "/sneakers-toolkit/static/js/main.c3541e48.js.map",
     "Login.82c3f80f.chunk.js.map": "/sneakers-toolkit/static/js/Login.82c3f80f.chunk.js.map",
     "Sneakers.dcc751c2.chunk.css.map": "/sneakers-toolkit/static/css/Sneakers.dcc751c2.chunk.css.map",
     "Sneakers.9952e438.chunk.js.map": "/sneakers-toolkit/static/js/Sneakers.9952e438.chunk.js.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.d9c725ab.css",
-    "static/js/main.c47144e4.js"
+    "static/js/main.c3541e48.js"
   ]
 }
