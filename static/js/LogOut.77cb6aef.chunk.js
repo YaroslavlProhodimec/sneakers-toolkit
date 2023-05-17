@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksneakers_toolkit=self.webpackChunksneakers_toolkit||[]).push([[215],{6099:function(n,t,o){o.r(t),o.d(t,{LogOut:function(){return r}});o(2791);var s="LogOut_logout__Hsavp",e=o(4776),u=o(7689),i=o(184),r=function(){(0,e.TL)();return(0,e.CG)((function(n){return n.login.isInitialzed}))?(0,i.jsx)("div",{className:s}):(0,i.jsx)(u.Fg,{to:"/login"})}}}]);
+//# sourceMappingURL=LogOut.77cb6aef.chunk.js.map
