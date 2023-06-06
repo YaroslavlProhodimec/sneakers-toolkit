@@ -14,7 +14,6 @@
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     transition-property: all; transition-duration: 0.5s; transition-delay: 0s; transition-timing-function: ease-out;
-    background-image: url('chevron-down.svg');
     background-position: right center;
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;

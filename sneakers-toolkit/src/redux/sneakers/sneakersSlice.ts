@@ -37,8 +37,6 @@ const sneakersSlice = createSlice({
             state.items = []
         })
     }
-
-
 })
 export const {setItems,} = sneakersSlice.actions
 

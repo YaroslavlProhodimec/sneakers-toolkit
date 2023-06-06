@@ -24,7 +24,8 @@ const filterSlice = createSlice({
             state.searchValue = action.payload;
         },
         setSort(state,action:PayloadAction<{ name:string,sortProperty:string}>){
-            state.sort = action.payload;
+            state.currentPage = 1
+                state.sort = action.payload;
         },
         setCurrentPage(state,action:PayloadAction<number>){
             state.currentPage = action.payload
