@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sneakers-toolkit/static/css/main.c0b99d4c.css",
-    "main.js": "/sneakers-toolkit/static/js/main.77395a16.js",
+    "main.js": "/sneakers-toolkit/static/js/main.f0f2003e.js",
     "Login.js": "/sneakers-toolkit/static/js/Login.51a133d1.chunk.js",
     "Sneakers.css": "/sneakers-toolkit/static/css/Sneakers.38eefe3e.chunk.css",
     "Sneakers.js": "/sneakers-toolkit/static/js/Sneakers.50717c01.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/adidasBrown.png": "/sneakers-toolkit/static/media/adidasBrown.66901e5252401d66cdf0.png",
     "index.html": "/sneakers-toolkit/index.html",
     "main.c0b99d4c.css.map": "/sneakers-toolkit/static/css/main.c0b99d4c.css.map",
-    "main.77395a16.js.map": "/sneakers-toolkit/static/js/main.77395a16.js.map",
+    "main.f0f2003e.js.map": "/sneakers-toolkit/static/js/main.f0f2003e.js.map",
     "Login.51a133d1.chunk.js.map": "/sneakers-toolkit/static/js/Login.51a133d1.chunk.js.map",
     "Sneakers.38eefe3e.chunk.css.map": "/sneakers-toolkit/static/css/Sneakers.38eefe3e.chunk.css.map",
     "Sneakers.50717c01.chunk.js.map": "/sneakers-toolkit/static/js/Sneakers.50717c01.chunk.js.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.c0b99d4c.css",
-    "static/js/main.77395a16.js"
+    "static/js/main.f0f2003e.js"
   ]
 }
