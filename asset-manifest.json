@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/sneakers-toolkit/static/css/main.c0b99d4c.css",
-    "main.js": "/sneakers-toolkit/static/js/main.540f5e15.js",
+    "main.css": "/sneakers-toolkit/static/css/main.9f7946d2.css",
+    "main.js": "/sneakers-toolkit/static/js/main.e7528bdb.js",
     "Login.js": "/sneakers-toolkit/static/js/Login.59b0c3fe.chunk.js",
     "Sneakers.css": "/sneakers-toolkit/static/css/Sneakers.38eefe3e.chunk.css",
-    "Sneakers.js": "/sneakers-toolkit/static/js/Sneakers.50717c01.chunk.js",
+    "Sneakers.js": "/sneakers-toolkit/static/js/Sneakers.5f100b8e.chunk.js",
     "NotFound.css": "/sneakers-toolkit/static/css/NotFound.e13f3174.chunk.css",
     "NotFound.js": "/sneakers-toolkit/static/js/NotFound.a96edf21.chunk.js",
     "static/js/787.f32d9650.chunk.js": "/sneakers-toolkit/static/js/787.f32d9650.chunk.js",
@@ -20,18 +20,18 @@
     "static/media/nikeGreen.png": "/sneakers-toolkit/static/media/nikeGreen.68adfb6c8e6a6bc0845f.png",
     "static/media/adidasBrown.png": "/sneakers-toolkit/static/media/adidasBrown.66901e5252401d66cdf0.png",
     "index.html": "/sneakers-toolkit/index.html",
-    "main.c0b99d4c.css.map": "/sneakers-toolkit/static/css/main.c0b99d4c.css.map",
-    "main.540f5e15.js.map": "/sneakers-toolkit/static/js/main.540f5e15.js.map",
+    "main.9f7946d2.css.map": "/sneakers-toolkit/static/css/main.9f7946d2.css.map",
+    "main.e7528bdb.js.map": "/sneakers-toolkit/static/js/main.e7528bdb.js.map",
     "Login.59b0c3fe.chunk.js.map": "/sneakers-toolkit/static/js/Login.59b0c3fe.chunk.js.map",
     "Sneakers.38eefe3e.chunk.css.map": "/sneakers-toolkit/static/css/Sneakers.38eefe3e.chunk.css.map",
-    "Sneakers.50717c01.chunk.js.map": "/sneakers-toolkit/static/js/Sneakers.50717c01.chunk.js.map",
+    "Sneakers.5f100b8e.chunk.js.map": "/sneakers-toolkit/static/js/Sneakers.5f100b8e.chunk.js.map",
     "NotFound.e13f3174.chunk.css.map": "/sneakers-toolkit/static/css/NotFound.e13f3174.chunk.css.map",
     "NotFound.a96edf21.chunk.js.map": "/sneakers-toolkit/static/js/NotFound.a96edf21.chunk.js.map",
     "787.f32d9650.chunk.js.map": "/sneakers-toolkit/static/js/787.f32d9650.chunk.js.map",
     "114.f19d4171.chunk.js.map": "/sneakers-toolkit/static/js/114.f19d4171.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0b99d4c.css",
-    "static/js/main.540f5e15.js"
+    "static/css/main.9f7946d2.css",
+    "static/js/main.e7528bdb.js"
   ]
 }
