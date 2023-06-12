@@ -37,6 +37,7 @@ export const SearchParam = ({
         setValue(event.target.value);
         timerId && clearTimeout(timerId)
         const id = +setTimeout(() => {
+            console.log('setTime')
             dispatch(setSearchValue(value))
             setTimerId(undefined)
         }, 1500)

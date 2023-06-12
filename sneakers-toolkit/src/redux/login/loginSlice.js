@@ -3,7 +3,9 @@ import {fetchLogin, fetchLogOut} from "./asyncActions";
 
 
 export const initialState = {
-    isInitialzed:false
+    isInitialzed:false,
+    error:null,
+    captchaUrl: null
 }
 
 
@@ -17,32 +19,41 @@ const loginSlice = createSlice({
         },
         setLogOut(state, action) {
             state.isInitialzed = action.payload
-        }
+        },
+        setCaptcha(state, action) {
+            state.captchaUrl = action.payload
+        },
+        setAppErrorAC(state, action) {
+            state.error = action.payload
+        },
     },
-    extraReducers: {
-        [fetchLogin.pending]: () => {
-            },
-        [fetchLogin.fulfilled]: (state ) => {
-            state.isInitialzed = true
+    extraReducers:builder => {
+    builder
+        .addCase(fetchLogin.pending,(state,action)  => {
+            })
+    .addCase(fetchLogin.fulfilled,(state,action)  => {
+        state.isInitialzed = true
+        // state.error = false
 
-        },
-        [fetchLogin.rejected]: (state ) => {
+        })
+        .addCase(fetchLogin.rejected,(state,action)  => {
             state.isInitialzed = false
+             state.error = 'error'
 
-        },
-        [fetchLogOut.pending]: () => {
-            },
-        [fetchLogOut.fulfilled]: (state ) => {
-            state.isInitialzed = false
+        })
+        .addCase(fetchLogOut.pending,(state,action)  => {
+        })
+        .addCase(fetchLogOut.fulfilled,(state,action)  => {
+        state.isInitialzed = false
 
-        },
-        [fetchLogOut.rejected]: (state) => {
+    })
+        .addCase(fetchLogOut.rejected,(state,action)  => {
             state.isInitialzed = true
-
-        }
+        })
     }
 
 })
 
+export const {setCaptcha,setAppErrorAC} = loginSlice.actions
 
 export default loginSlice.reducer

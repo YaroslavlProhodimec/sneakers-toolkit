@@ -1,3 +1,4 @@
+import {GlobalError} from "components/globalError/GlobalError";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -14,7 +15,9 @@ root.render(
     <HashRouter>
         <React.StrictMode>
             <Provider store={store}>
+                <GlobalError/>
                 <App/>
+
             </Provider>
         </React.StrictMode>
     </HashRouter>

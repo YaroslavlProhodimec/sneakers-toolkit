@@ -9,7 +9,7 @@ import {SneakersSliceState, Status} from "./types";
 
 export const initialState:SneakersSliceState = {
     items: [],
-    isLoading: Status.LOADING
+    isLoading: Status.LOADING,
 }
 
 
@@ -38,6 +38,6 @@ const sneakersSlice = createSlice({
         })
     }
 })
-export const {setItems,} = sneakersSlice.actions
+export const {setItems} = sneakersSlice.actions
 
 export default sneakersSlice.reducer

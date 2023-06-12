@@ -9,16 +9,15 @@ import Menu from '@mui/material/Menu';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
-import {Badge, Link} from '@mui/material';
+import {Badge} from '@mui/material';
 import {SearchParam} from "./miniHeaderComponent/search/SearchParam";
 import {motion} from "framer-motion"
 import {useAppSelector} from "../../redux/store";
 import {selectorItems} from "../../redux/basket/selectors";
-
+import {Link} from "react-router-dom";
 
 type PropsHeaderType = {
     openBasket: () => void
-
     searchValue:string
     sentValue:(value: string) => void
 }
@@ -73,7 +72,7 @@ export function Header({openBasket,sentValue,searchValue}: PropsHeaderType) {
             onClose={handleMenuClose}
         >
 
-            <MenuItem onClick={handleMenuClose}><Link href={"/login"} underline="none">Log-out</Link></MenuItem>
+            <MenuItem onClick={handleMenuClose}><Link style={{textDecoration:'none'}} to={'/login'}>Log-out</Link></MenuItem>
         </Menu>
     );
 

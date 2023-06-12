@@ -65,6 +65,7 @@ const BaseContainer = () => {
 }
     return (
         <div className={s.baseContainer}>
+
             <Header searchValue={searchValue} sentValue={onChangeText}
                     openBasket={openBasket}/>
             <SortSelect className={styleSelect.select}/>

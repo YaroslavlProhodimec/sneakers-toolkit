@@ -1,4 +1,5 @@
-import React from 'react'
+import {GlobalError} from "components/globalError/GlobalError";
+import React, {memo} from 'react'
 import Grid from '@mui/material/Grid';
 import Checkbox from '@mui/material/Checkbox';
 import FormControl from '@mui/material/FormControl';
@@ -18,8 +19,8 @@ type FormikErrorType = {
     rememberMe?: boolean
 }
 
-export const Login = () => {
-    const login = useAppSelector(state => state.login.isInitialzed)
+export const Login = memo(function Login()  {
+    const {isInitialzed,captchaUrl} = useAppSelector(state => state.login)
 
   const dispatch = useAppDispatch()
 
@@ -27,7 +28,8 @@ export const Login = () => {
         initialValues: {
             email: '',
             password: '',
-            rememberMe: false
+            rememberMe: false,
+            captcha: null
         },
         validate: (values) => {
             const errors: FormikErrorType = {}
@@ -40,15 +42,16 @@ export const Login = () => {
         },
         onSubmit: values => {
             dispatch(fetchLogin(values))
-
         },
     })
- if(login){
+
+ if(isInitialzed){
         return <Navigate to={'/'}/>
     }
 
     return <Grid container justifyContent={'center'}>
         <Grid item justifyContent={'center'} sx={{mt:'130px'}}>
+
             <form onSubmit={formik.handleSubmit}>
             <FormControl>
                 <FormLabel>
@@ -65,13 +68,20 @@ export const Login = () => {
                                margin="normal"
                                {...formik.getFieldProps('password')}
                     />
+                    {captchaUrl  !==null &&  <img style={{marginLeft:'10px',width:'200px',height:'100px'}} src={captchaUrl} alt={'photo'}/>}
+                    {captchaUrl  && <TextField type="captcha" label="Captcha"
+                                margin="normal"
+                                {...formik.getFieldProps('captcha')}
+                    />}
+
                     <FormControlLabel label={'Remember me'} control={<Checkbox/>}/>
                     <Button type={'submit'} variant={'contained'} color={'primary'}>
                         Login
                     </Button>
                 </FormGroup>
             </FormControl>
+
             </form>
         </Grid>
     </Grid>
-}
+})
